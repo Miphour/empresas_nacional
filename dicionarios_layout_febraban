@@ -94,3 +94,13 @@ motivos_irregularidades = {
     "70": "Dados do Beneficiário em branco ou inválido",
     "71": "CNPJ/CPF do beneficiário incompatível com a espécie."
 }
+
+ocorr_pagos        = ['1','7']
+ocorr_protestados  = ['2','C','B']
+ocorr_irregulares  = ['5','6']
+ocorr_desistencias = ['3','D','F']
+ocorr_sustado      = ['4','G']
+ocorr_cancelados   = ['A','E','J']
+ocorr_outras       = ['I','X','K','8','9']
+
+ocorr_recuperadas  = ocorr_pagos + ocorr_cancelados
